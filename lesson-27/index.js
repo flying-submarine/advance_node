@@ -7,7 +7,7 @@ const app = new koa()
 
 
 app.use(
-    static(__dirname + '/source')
+    static(__dirname + '/source/')
 )
 
 app.use(
